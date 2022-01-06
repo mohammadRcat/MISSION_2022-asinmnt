@@ -8,13 +8,13 @@ body{
 
 }
 
-h1{
+.left-border-color{
     font-size: 65px;
     border-left: 4px solid;
     border-image:linear-gradient(to bottom, #66ff66 0%, #00cc99 100%) ;
     border-image-slice: 1;
 }
-h2{text-align: center;
+.heading2{text-align: center;
     font-size: 50px;
  
 }
@@ -71,3 +71,31 @@ h2{text-align: center;
 .ilustrator-area img{
     width: 44%;
 }
+
+.half-down-side{
+    width: 60%;
+   /* padding-block-start: 2%;
+    padding-block-end: 5%;*/
+    font: size 30px;
+    padding-right: 5%;
+    
+    border: 2px solid;
+    padding-left: 5%;
+    padding-bottom: -calc(10);
+    
+}
+.half-down-side img{
+    width: 70%;
+    margin-top: 5%;
+
+    padding-bottom: 5%;
+    padding-left: 9%;
+
+}
+/*
+.add-bg-image{
+    background-image: url(Images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: left;
+}*/
