@@ -1,0 +1,73 @@
+body{
+   
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.flexible-area{
+    display: flex;
+    margin-top:5%;
+
+}
+
+h1{
+    font-size: 65px;
+    border-left: 4px solid;
+    border-image:linear-gradient(to bottom, #66ff66 0%, #00cc99 100%) ;
+    border-image-slice: 1;
+}
+h2{text-align: center;
+    font-size: 50px;
+ 
+}
+
+.enroll-button{
+    text-decoration: none;
+    background-image:linear-gradient(to bottom, #66ff66 0%, #00cc99 100%) ;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.color-heading{
+    color: rgb(218,165,32	);
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 8%;
+   /* margin-top: 5%;*/
+    padding: top 5px;
+ /* border: 2px solid*/
+}
+.half-width img{
+    width: 70%;
+    margin-top: 5%;
+   /* padding-top: 2%;*/
+    padding-bottom: 5%;
+    padding-left: 9%;
+}
+.ilustrator-area{
+    
+    width: 600px;
+    padding-right: 10px;
+     padding-left: 15px;
+     margin-left: 100px;
+     margin-right: 20px;
+     border: none;
+     border-radius: 16PX;
+}
+#bg-color1{
+   background-color:rgb(245, 222, 179) ;
+
+}
+   #bg-color2{
+       background-color:rgb(176, 224, 230);
+      box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);
+   }
+   #bg-color3{
+    background-color:rgb(143, 188, 143) ;
+ } 
+
+.ilustrator-area img{
+    width: 44%;
+}
