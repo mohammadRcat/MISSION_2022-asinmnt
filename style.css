@@ -76,16 +76,13 @@ body{
 
 .half-down-side{
     width: 60%;
-   /* padding-block-start: 2%;
-    padding-block-end: 5%;*/
     font: size 30px;
     padding-right: 5%;
-    
     border:none;
     padding-left: 5%;
     padding-bottom: -calc(10);
-    
 }
+
 .half-down-side img{
     width: 70%;
     margin-top: 5%;
@@ -94,29 +91,32 @@ body{
     padding-left: 9%;
 
 }
-/*
-.add-bg-image{
-    background-image: url(Images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 15%;
-    background-position: left;
-}*/
+.h-one{
+    text-align: center;
+    font-size: 44px;
+}
+
+.half-bonas-side{
+    width:85%;
+}
+
 footer{
     background-color: black;
     color: white;
-    padding-top: 1%;
+    padding-top: 2px;
     height: 80%;
 }
 .container-2{ color:white;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    
 
 }
 .container-p{
     text-align: center;
     color:yellowgreen;
     font-size: 20px;
-    margin-bottom: 5px;
+    margin-bottom:5px;
     
 }
